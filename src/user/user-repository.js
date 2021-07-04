@@ -1,5 +1,5 @@
 module.exports = {
-    findAll: () => {
+    findAll: async () => {
         return []
     }
 }

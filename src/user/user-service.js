@@ -1,7 +1,7 @@
 const UserRepository = require('./user-repository')
 
 module.exports = {
-    getAllUsers: () => {
-        return UserRepository.findAll()
+    getAllUsers: async () => {
+        return await UserRepository.findAll()
     }
 }
